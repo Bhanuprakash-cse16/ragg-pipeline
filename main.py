@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 import openai
 
-##openai.api_key = "your-api-key"
+openai.api_key = "your-api-key"
 
 
 def crawl_url(url):
